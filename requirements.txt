@@ -1,0 +1,29 @@
+# LangChain
+langchain
+langchain-core
+
+
+# Google Gemini
+langchain-google-genai
+google-generativeai
+
+#Groq 
+langchain-groq
+
+# Hugging Face
+langchain-huggingface
+transformers
+huggingface-hub
+
+# Environment variables
+python-dotenv
+
+# ML utilities
+numpy
+scikit-learn
+
+#local Embedding 
+sentence-transformers
+
+#streamlit 
+streamlit
