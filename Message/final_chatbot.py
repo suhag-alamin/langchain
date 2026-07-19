@@ -17,7 +17,8 @@ st.header("ChatBot")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = [
         SystemMessage(
-            content="You are a AI assistant. Always answer in short.")
+            content="You are a AI assistant. Always answer in short."
+        )
     ]
 
 # display previous message
