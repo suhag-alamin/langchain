@@ -27,3 +27,7 @@ sentence-transformers
 
 #streamlit 
 streamlit
+
+# pydantic
+pydantic
+pydantic[email]
