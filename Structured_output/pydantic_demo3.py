@@ -1,8 +1,7 @@
-from pydantic import BaseModel, EmailStr, Field
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from typing import Optional
-
+from pydantic import BaseModel, EmailStr, Field
 load_dotenv()
 
 
@@ -28,7 +27,7 @@ result = structured_model.invoke(
     """My name is Suhag. I have 3 years of experience
     as a Machine Learning Engineer.
 
-    My email is arif@gmail.com.
+    My email is arif@gmail.com. 
     I am expecting an annual salary of 50000 dollars.
     """
 )
