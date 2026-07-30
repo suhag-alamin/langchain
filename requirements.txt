@@ -31,3 +31,6 @@ streamlit
 # pydantic
 pydantic
 pydantic[email]
+
+
+grandalf
